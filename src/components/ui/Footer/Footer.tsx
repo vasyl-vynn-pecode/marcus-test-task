@@ -22,7 +22,7 @@ export const Footer = () => {
               href={item.href}
               aria-label={item.label}
               aria-current={pathname === item.href ? 'page' : undefined}
-              className="hover:text-footerHover active:text-footerHover transition-colors duration-200 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-footerHover"
+              className="hover:text-footerHover active:text-footerHover transition-colors duration-200 "
             >
               {item.label}
             </Link>
@@ -35,7 +35,7 @@ export const Footer = () => {
               key={social.label}
               href={social.href}
               aria-label={social.label}
-              className="hover:text-footerHover active:text-footerHover transition-colors duration-200 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-footerHover"
+              className="hover:text-footerHover active:text-footerHover transition-colors duration-200 "
             >
               <social.icon className="w-6 h-6" />
             </a>
