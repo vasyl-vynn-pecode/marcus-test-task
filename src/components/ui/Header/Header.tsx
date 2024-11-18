@@ -41,7 +41,7 @@ export const Header = () => {
                             href={item.href}
                             aria-label={item.label}
                             aria-current={pathname === item.href ? 'page' : undefined}
-                            className="hover:text-customColor transition-colors focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-customColor"
+                            className="hover:text-customColor transition-colors "
                         >
                             {item.label}
                         </Link>
@@ -59,7 +59,7 @@ export const Header = () => {
 
                 <button
                     onClick={toggleMobileMenu}
-                    className="md:hidden text-customColor focus:outline-none focus:ring-2 focus:ring-customColor"
+                    className="md:hidden text-customColor "
                     aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
                     aria-expanded={isMobileMenuOpen}
                     aria-controls="mobile-menu"
@@ -80,7 +80,7 @@ export const Header = () => {
                             <li key={item.label}>
                                 <Link
                                     href={item.href}
-                                    className="block text-customColor hover:text-customColor transition-colors focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-customColor"
+                                    className="block text-customColor hover:text-customColor transition-colors "
                                     onClick={toggleMobileMenu}
                                 >
                                     {item.label}

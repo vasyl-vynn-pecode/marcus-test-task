@@ -7,7 +7,7 @@ This is a test project utilizes React, Next.js, Tailwind CSS, and TypeScript to 
 **Clone and start project**:
 
 ```bash
-git clone https://github.com/yourusername/markus-test-task.git
+git clone https://github.com/vasyl-vynn-pecode/marcus-test-task.git
 
 cd marcus-test-task
 
