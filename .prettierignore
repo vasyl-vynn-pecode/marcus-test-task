@@ -1,0 +1,14 @@
+# Ignore artifacts
+node_modules
+.next
+out
+coverage
+public
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Build files
+*.tsbuildinfo
